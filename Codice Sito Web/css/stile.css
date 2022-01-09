@@ -1,0 +1,1020 @@
+body {
+	background: #f0f0f0;
+}
+
+h1, h2, h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2.bold {
+	font-weight: bold;
+}
+
+h1.bold {
+	font-weight: bold;
+}
+
+h2.profilo {
+	font-weight: bold;
+	color: rgb(121, 117, 117);
+}
+
+h3.giallo {
+	color: #ffd800;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+	font-weight: bold;
+}
+
+h3.giallo.click:hover {
+	color: #FFAF00;
+}
+
+a {
+	text-decoration: none;
+}
+
+.testa {
+	background: #fff;
+	width: 100%;
+	max-width: 960px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+.corpo {
+	background: #fff;
+	width: 100%;
+	max-width: 960px;
+	min-height: 300px;
+	margin: 10px auto;
+	box-sizing: border-box;
+	padding: 0px;
+	display: flex;
+	border-radius: 5px;
+}
+
+.piede {
+	background: #fff;
+	width: 100%;
+	max-width: 960px;
+	min-height: 30px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+}
+
+.sinistra {
+	height: 650px;
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.destra {
+	box-sizing: border-box;
+	height: 650px;
+	float: left;
+	width: 50%;
+	display: block;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sinistra1 {
+	height: 400px;
+	float: left;
+	width: 50%;
+}
+
+.destra1 {
+	height: 400px;
+	float: left;
+	width: 50%;
+}
+
+.foto {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.fotoc {
+	width: 80%;
+	height: 80%;
+	object-fit: contain;
+}
+
+.login {
+	width: 90%;
+	height: 60%;
+}
+
+.titlogin {
+	width: 100%;
+	height: 25%;
+}
+
+.campi {
+	width: 100%;
+	height: 75%;
+}
+
+.campiregistrazione {
+	width: 100%;
+	display: flex;
+}
+
+input[type=email], [type=password], [type=text], [type=radio], [type=number], [type=date] {
+	border: none;
+	border-bottom: 2px solid #ffd800;
+	margin: 0 0 20px;
+	padding: 5px 5px;
+	font-size: 16px
+}
+
+label {
+	margin-right: 10px;
+}
+
+input[type=submit] {}
+
+input[type=submit].logreg {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	color: #000000;
+	line-height: 1.2;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	background-color: #FFD800;
+	border-radius: 7px;
+	padding: 10px 15px;
+	border: 0px solid;
+	cursor: pointer;
+	width: 115px;
+}
+
+input[type=submit].logreg:hover {
+	background-color: #FFAF00;
+}
+
+button.cerca {
+	display: inline-block;
+	white-space: nowrap;
+	line-height: 1.2;
+	background-color: #FFD800;
+	border-radius: 7px;
+	padding: 5px 5px;
+	border: 0px solid;
+	cursor: pointer;
+}
+
+button.cerca:hover {
+	background-color: #FFAF00;
+}
+button.info {
+	width: 40px;
+	display: inline-block;
+	white-space: nowrap;
+	line-height: 1.2;
+	background-color: #FFD800;
+	border-radius: 7px;
+	padding: 5px 5px;
+	border: 0px solid;
+	cursor: pointer;
+}
+
+button.info:hover {
+	background-color: #FFAF00;
+}
+button.cerca1 {
+	display: inline-block;
+	white-space: nowrap;
+	line-height: 1.2;
+	background-color: #FFD800;
+	border-radius: 7px;
+	padding: 5px 5px;
+	border: 0px solid;
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+button.cerca1:hover {
+	background-color: #FFAF00;
+}
+
+.noreg {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.corpo1 {
+	background: #fff;
+	width: 100%;
+	max-width: 960px;
+	min-height: 300px;
+	margin: 10px auto;
+	box-sizing: border-box;
+	padding: 0px;
+	border-radius: 5px;
+	display: block;
+}
+
+.titregistrazione {
+	width: 100%;
+	height: 100px;
+}
+
+.wrapper {
+	background: #fff;
+	width: 100%;
+	max-width: 960px;
+	min-height: 300px;
+	margin: 10px auto;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
+
+.sticky {
+	position: sticky;
+	width: 100%;
+	height: 70px;
+	background-color: #ffd800;
+	position: -webkit-sticky;
+	top: 0px;
+	box-sizing: border-box;
+	padding: 0.5%;
+	border-radius: 5px;
+}
+
+.sticky-centro {
+	height: 60px;
+	object-fit: contain;
+	display: inline-block;
+}
+
+.sticky-centro:hover {
+	height: 55px;
+}
+
+.sticky-right {
+	height: 60px;
+	object-fit: contain;
+	float: right;
+	display: inline-block;
+}
+
+.sticky-right:hover {
+	height: 55px;
+}
+
+.stickydiv {
+	width: 33%;
+	float: left;
+	height: 99%
+}
+
+.ricerca {
+	width: 100%;
+	height: 200px;
+}
+
+.camporic {
+	width: 91%;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tastoric {
+	width: 9%;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.categorie {
+	width: 100%;
+	display: inline-block;
+}
+
+.categoria {
+	position: relative;
+	width: 31.33%;
+	height: 300px;
+	background-color: #ffd800;
+	float: left;
+	border-radius: 5px;
+	margin: 1%
+}
+
+.imgricerca {
+	width: 40px;
+	height: 40px;
+}
+
+.titcat {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.imcat {
+	height: 80%;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #FFAF00;
+	border-radius: 5px;
+}
+
+.categoria:hover .overlay {
+	opacity: 1;
+}
+
+.testooverlay {
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.scegli {
+	width: 100%;
+	display: inline-block;
+}
+
+.scelta {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.opzioni {
+	width: 100%;
+	height: 80px;
+}
+.opzioni_cat {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.opzione {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prodotti {
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: 2px solid #aaa;
+}
+
+.tendina {
+	width: 300px;
+	font-size: 25px;
+}
+
+.prodlist {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.prodrisultati {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.immlist {
+	width: 25%;
+	height: 100%;
+	float: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datilist {
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.supermercato{
+	width: 40%;
+	height: 100%;
+	float: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prezzo{
+	width: 15%;
+	height: 100%;
+	float: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addcarrello{
+	width: 20%;
+	height: 100%;
+	float: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomesup {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+.elimina {
+	width: 15%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.nome {
+	width: 100%;
+	height: 35%;
+}
+
+.mar-cat {
+	width: 100%;
+	height: 25%;
+}
+.datirisultati{
+	width: 75%;
+	height: 100%;
+	
+}
+.bottonirisultati{
+	width: 20%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrizione {
+	width: 100%;
+	height: 40%;
+}
+
+.crealista {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.campo {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0;
+}
+
+.tasto {
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenutoprofilo {
+	width: 100%;
+	text-align: center;
+}
+
+.email {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.campiprofilo {
+	width: 100%;
+	display: inline-block;
+}
+
+.titoloprof {
+	width: 30%;
+	height: 70px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+div.campoprof {
+	width: 70%;
+	height: 70px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+div.campopass {
+	width: 100%;
+	height: 70px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+input.campoprof {
+	width: 90%;
+}
+input.campopass {
+	width: 70%;
+	max-width: 400px;
+}
+
+.tastiprofilo {
+	width:100%;
+	display: inline-block;
+	padding: 0 auto;
+}
+
+input[type=submit].eliminaprof {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	color: #000000;
+	line-height: 1.2;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	background-color: #ff0000;
+	border-radius: 7px;
+	padding: 10px 15px;
+	border: 0px solid;
+	cursor: pointer;
+	width: 180px;
+}
+.nomerisultati{width: 100%;
+height: 50%;}
+.marrisultati{width: 50%;
+	height: 50%;
+float:left;}
+.catrisultati{
+	width: 50%;
+	height: 50%;
+	float:left;
+}
+.confronta{width:100%;
+	height:300px;
+}
+.infoconfronta{width:50%;height: 300px; float:left;
+	display: flex;
+    justify-content: center;
+    align-items: center;}
+.immconfronta{width:50%;height: 300px; float:left;
+	display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.nomescelta{height:100%; width:70%;
+	display: flex;
+    justify-content: center;
+    align-items: center;}
+.tastoscegli{height:100%; width:30%;
+	display: flex;
+    justify-content: center;
+    align-items: center;}
+
+	.nomesup {
+		width: 45%;
+		height: 100%;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.infosup {
+		width: 10%;
+		height: 100%;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.prodsup {
+		width: 20%;
+		height: 100%;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nomesuper{
+		width: 100%;
+		height: 40%;
+		float: left;
+		display: flex;
+		
+		align-items: center;
+
+		box-sizing: border-box;
+		
+	}
+	.paesesuper{
+		width: 100%;
+		height: 20%;
+		float: left;
+		display: flex;
+		
+		align-items: center;
+
+		box-sizing: border-box;
+	}
+	.viasuper{
+		width: 100%;
+		height: 20%;
+		float: left;
+		display: flex;
+		
+		align-items: center;
+		
+		box-sizing: border-box;
+	
+	}
+
+	.intest_sup{width:100%;
+	height: 240px;
+}
+.mappa{
+	width: 100%;
+		height: 350px;
+		display: block;
+}
+.mappa_sup{
+	width: 100%;
+		height: 100%;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+		box-sizing: border-box;
+
+}
+.immsuper{
+	width: 40%;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:20px;
+	box-sizing: border-box;
+}
+.infosuper{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+
+
+
+@media screen and (max-width: 660px) {
+	.sinistra {
+		display: none;
+	}
+	.destra {
+		width: 100%;
+	}
+	.login {
+		width: 90%;
+		height: 80%;
+	}
+	.categoria {
+		height: 200px;
+	}
+	.ricerca {
+		height: 150px;
+	}
+	.sticky-centro {
+		width: 100%;
+	}
+	.wrapper {
+		margin: 0px auto;
+	}
+	.sticky {
+		border-radius: 0;
+	}
+	.imgricerca {
+		width: 35px;
+		height: 35px;
+	}
+	.camporic {
+		width: 85%;
+	}
+	.tastoric {
+		width: 15%;
+	}
+	.testooverlay {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.sticky {
+		height: 60px;
+	}
+	.sticky-centro {
+		height: 50px;
+	}
+	.sticky-centro:hover {
+		height: 45px;
+	}
+	.sticky-right {
+		height: 50px;
+	}
+	.sticky-right:hover {
+		height: 45px;
+	}
+	.testa {
+		margin-top: 0;
+	}
+	.destra {
+		height: 500px;
+	}
+	.login {
+		width: 90%;
+		height: 90%;
+	}
+	.destra1 {
+		width: 100%
+	}
+	.sinistra1 {
+		width: 100%;
+	}
+	.categoria {
+		width: 98%;
+		height: 100px;
+	}
+	.ricerca {
+		width: 100%;
+		height: 100px;
+	}
+	.imgricerca {
+		width: 30px;
+		height: 30px;
+	}
+	.camporic {
+		width: 80%;
+	}
+	.tastoric {
+		width: 20%;
+	}
+	.titcat {
+		height: 100%;
+		width: 80%;
+		float: left;
+	}
+	.imcat {
+		height: 100%;
+		width: 20%;
+		float: left;
+	}
+	.opzione {
+		width: 50%;
+	}
+	.overlay {
+		display: none;
+	}
+	input.campoprof {
+		width: 80%;
+	}
+	.titoloprof {
+		width: 20%;
+	
+	}
+	
+	div.campoprof {
+		width: 80%;
+	
+	}
+	button.cerca1 {
+	
+		margin: 0 5px;
+	}
+	.datirisultati{
+		width:70%;
+	}
+	.prodrisultati {
+	
+		height: 130px;
+		
+	}
+	.infoconfronta{width:50%;height: 250px; float:left;
+	}
+	.immconfronta{width:50%;height: 250px; float:left;
+		}
+		.confronta{width:100%;
+			height:250px;
+		}
+		.intest_sup{
+			height: 180px;
+		}
+		.mappa{
+			
+				height: 300px;
+				
+		}
+
+		.immsuper{
+			width: 40%;
+	
+		}
+		.infosuper{
+			width: 60%;
+		
+		}
+}
+@media screen and (max-width: 460px) {
+
+	.infoconfronta{width:100%;height: 150px; float:left;
+	}
+	.immconfronta{width:100%;height: 170px; float:left;
+		}
+		.confronta{width:100%;
+			height:320px;
+		}
+		button.info {
+			width: 25px;
+		
+		}
+		.intest_sup{
+			height: 150px;
+		}
+		.mappa{
+			
+				height: 280px;
+				
+		}
+}
+@media screen and (max-width: 400px) {
+	h3 {
+		font-size: 14px;
+	}
+	.destra {
+		height: 350px;
+	}
+	.login {
+		width: 90%;
+		height: 100%;
+	}
+	.destra1 {
+		height: 350px;
+	}
+	.sinistra1 {
+		height: 350px;
+	}
+	.sticky {
+		height: 50px;
+	}
+	.sticky-centro {
+		height: 40px;
+	}
+	.sticky-centro:hover {
+		height: 35px;
+	}
+	.sticky-right {
+		height: 40px;
+	}
+	.sticky-right:hover {
+		height: 35px;
+	}
+	.imcat {
+		padding: 5px;
+	}
+	h1 {
+		font-size: 23px;
+	}
+	.tendina {
+		width: 260px;
+		font-size: 18px;
+	}
+	input[type=submit].logreg {
+		font-size: 12px;
+		width: 85px;
+	}
+	input[type=submit].eliminaprof {
+		font-size: 12px;
+		width: 130px;
+	}
+	.immlist {
+		width: 20%;
+	}
+	.datilist {
+		width: 60%;
+	}
+	.elimina {
+		width: 20%;
+	}
+	h2 {
+		font-size: 13px;
+	}
+	button.cerca1 {
+	
+		margin: 0 3px;
+	}
+	.datirisultati{
+		width:60%;
+	}
+	.nomesup {
+		width: 35%;
+	
+	}
+
+	.infosup {
+		width: 10%;
+
+	}
+	
+	.prodsup {
+		width: 30%;
+	
+
+}
+.intest_sup{
+	height: 120px;
+}
+.mappa{
+	
+		height: 230px;
+		
+}
+}
